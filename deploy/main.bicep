@@ -140,7 +140,7 @@ resource sqlServer 'Microsoft.Sql/servers@2021-08-01-preview' = {
   properties: {
     administratorLogin: sqlAdminLogin
     administratorLoginPassword: sqlAdminPassword
-    publicNetworkAccess: 'Enabled' 
+    publicNetworkAccess: 'Enabled'
   }
 }
 
